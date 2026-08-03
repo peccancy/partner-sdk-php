@@ -1,0 +1,18 @@
+{
+    "name": "peccancy/partner-sdk",
+    "description": "Official Peccancy partner SDK — create disputes, take payments and verify result webhooks.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["peccancy", "disputes", "betting", "partner", "sdk"],
+    "homepage": "https://github.com/peccancy/partner-sdk-php",
+    "require": {
+        "php": ">=8.0",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Peccancy\\Partner\\": "src/"
+        }
+    }
+}
