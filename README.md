@@ -17,7 +17,7 @@ composer require peccancy/partner-sdk
 
 ## Get credentials
 
-1. Register as a partner on the platform and open your partner in the dashboard.
+1. Register as a partner at **https://disputes.online/profile?tab=partners** and open your partner.
 2. Copy your **`partnerId`** (UUID) and **`secret`**.
 3. Set a **`callback_url`** on your partner if you want result/payment webhooks.
 
@@ -119,6 +119,11 @@ Non-2xx responses throw `Peccancy\Partner\PartnerApiError` with `->statusCode` a
 
 - [`examples/connect_your_game.php`](./examples/connect_your_game.php)
 - [`examples/webhook_receiver.php`](./examples/webhook_receiver.php)
+
+## Links
+
+- **Register / get credentials:** https://disputes.online/profile?tab=partners
+- **Other SDKs:** [Node](https://github.com/peccancy/partner-sdk-node) · [PHP](https://github.com/peccancy/partner-sdk-php) · [Python](https://github.com/peccancy/partner-sdk-python) · [Go](https://github.com/peccancy/partner-sdk-go)
 
 ## License
 
