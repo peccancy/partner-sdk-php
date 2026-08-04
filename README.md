@@ -1,6 +1,7 @@
 # peccancy/partner-sdk (PHP)
 
 [![CI](https://github.com/peccancy/partner-sdk-php/actions/workflows/ci.yml/badge.svg)](https://github.com/peccancy/partner-sdk-php/actions/workflows/ci.yml)
+[![Partner API docs](https://img.shields.io/badge/docs-Partner%20API-blue)](https://docs.disputes.online/swagger/index.html)
 
 Official PHP SDK for the **Peccancy** disputes/betting platform.
 
@@ -125,6 +126,7 @@ Non-2xx responses throw `Peccancy\Partner\PartnerApiError` with `->statusCode` a
 ## Links
 
 - **Register / get credentials:** https://disputes.online/profile?tab=partners
+- **Partner API reference:** https://docs.disputes.online/swagger/index.html
 - **Other SDKs:** [Node](https://github.com/peccancy/partner-sdk-node) · [PHP](https://github.com/peccancy/partner-sdk-php) · [Python](https://github.com/peccancy/partner-sdk-python) · [Go](https://github.com/peccancy/partner-sdk-go)
 
 ## License
