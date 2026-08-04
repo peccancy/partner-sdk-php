@@ -1,5 +1,7 @@
 # peccancy/partner-sdk (PHP)
 
+[![CI](https://github.com/peccancy/partner-sdk-php/actions/workflows/ci.yml/badge.svg)](https://github.com/peccancy/partner-sdk-php/actions/workflows/ci.yml)
+
 Official PHP SDK for the **Peccancy** disputes/betting platform.
 
 Connect your game or app once and let your users bet on outcomes: create disputes, control
